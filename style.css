@@ -1,0 +1,11 @@
+.postage{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    position: fixed;
+    outline-style: outset;
+    outline-color: darkgray;
+    outline-width: 2px;
+    outline-offset: 3px;
+}
