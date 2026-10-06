@@ -1,5 +1,6 @@
-<!DOCTYPE = html>
+<!doctype html>
 <html>
+  <script src="testweather.js"></script>
   <head>
     <title>Fantasy Weather</title>
     <link rel="stylesheet" href="style.css">
@@ -7,65 +8,70 @@
   <body>
     <table class="deftable">
       <tr>
+        <th class="borders title" colspan="4">Rosters</th>
+      </tr>
+      <tr>
         <th class="borders">She Ho On My Chi 'Til I Minh</th>
-        <th class="borders">Big Buzzball</th>
+        <th class="borders">Bigger Buzzball</th>
         <th class="borders">Tornado Alley</th>
-        <th class="borders">Windy-zzzNutz</th>
+        <th class="borders">Cloud 9</th>
       </tr>
       <tr>
         <td class="borders">Ho Chi Minh City</td>
-        <td class="borders">Chicago</td>
+        <td class="borders">Santiago</td>
         <td class="borders">St. Petersburg</td>
-        <td class="borders">Delhi</td>
-      </tr>
-      <tr>
-        <td class="borders">Hyderabad</td>
-        <td class="borders">Lagos</td>
-        <td class="borders">Bogotá</td>
-        <td class="borders">Dallas</td>
-      </tr>
-      <tr>
-        <td class="borders">New York City</td>
-        <td class="borders">Jakarta</td>
-        <td class="borders">Singapore City</td>
-        <td class="borders">Kuala Lumpur</td>
-      </tr>
-      <tr class="borders">
-        <td class="borders">Atlanta</td>
-        <td class="borders">Rio de Janeiro</td>
-        <td class="borders">Guangzhou</td>
         <td class="borders">Moscow</td>
       </tr>
       <tr>
-        <td class="borders">Tehran</td>
-        <td class="borders">Baghdad</td>
-        <td class="borders">Houston</td>
-        <td class="borders">Kinshasa</td>
-      </tr>
-      <tr>
-        <td class="borders">Lima</td>
-        <td class="borders">Madrid</td>
-        <td class="borders">London</td>
-        <td class="borders">Toronto</td>
-      </tr>
-      <tr>
-        <td class="borders">Santiago</td>
-        <td class="borders">Mumbai</td>
+        <td class="borders">Beijing</td>
         <td class="borders">Buenos Aires</td>
-        <td class="borders">Chengdu</td>
+        <td class="borders">Chicago</td>
+        <td class="borders">Johannesburg</td>
       </tr>
       <tr>
-        <td class="borders">Mexico City</td>
-        <td class="borders">Seoul</td>
+        <td class="borders">Delhi</td>
+        <td class="borders">Toronto</td>
         <td class="borders">Lahore</td>
-        <td class="borders">Bandung</td>
+        <td class="borders">Dhaka</td>
+      </tr>
+      <tr class="borders">
+        <td class="borders">Tehran</td>
+        <td class="borders">São Paulo</td>
+        <td class="borders">Singapore City</td>
+        <td class="borders">London</td>
       </tr>
       <tr>
-        <td class="borders">Belo Horizante</td>
+        <td class="borders">Taipei</td>
+        <td class="borders">Guangzhou</td>
+        <td class="borders">Chennai</td>
+        <td class="borders">Kuala Lumpur</td>
+      </tr>
+      <tr>
+        <td class="borders">Houston</td>
+        <td class="borders">Cairo</td>
+        <td class="borders">Bogotá</td>
+        <td class="borders">Yangon</td>
+      </tr>
+      <tr>
         <td class="borders">Dar es Salaam</td>
-        <td class="borders">Washington, D.C.</td>
-        <td class="borders">Manila</td>
+        <td class="borders">Tokyo</td>
+        <td class="borders">New York City</td>
+        <td class="borders">Atlanta</td>
+      </tr>
+      <tr>
+        <td class="borders">Istanbul</td>
+        <td class="borders">Bandung</td>
+        <td class="borders">Dallas</td>
+        <td class="borders">Jakarta</td>
+      </tr>
+      <tr>
+        <td class="borders">Rio de Janeiro</td>
+        <td class="borders">Kolkata</td>
+        <td class="borders">Mumbai</td>
+        <td class="borders">Baghdad</td>
       </tr>
     </table>
+    <button onclick="getWeather()">Click Me For Weather</button>
+    <div id="weather-div"></div>
   </body>
 </html>
